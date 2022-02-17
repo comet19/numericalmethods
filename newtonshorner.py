@@ -27,8 +27,8 @@ def extended_synthetic_division(dividend, divisor):
  
 if __name__ == '__main__':
     print("POLYNOMIAL SYNTHETIC DIVISION")
-    N = [1, -2, -10, 1, 4]
-    D = [1,-0.9032258]
+    N = [1, 5, -9, -85, -136]
+    D = [1, 4.137931]
     
     
     
@@ -48,5 +48,5 @@ if __name__ == '__main__':
     print("|",tally)
     print(outputs2)
     
-    print("answer r1", abs(D[1]) - float(outputs[1][0])/float(outputs2[1][0]))
+    print("answer r1", -(D[1]) - float(outputs[1][0])/float(outputs2[1][0]))
     print("next step is to rerun and input NEGATIVE ANSWER ONLY")
